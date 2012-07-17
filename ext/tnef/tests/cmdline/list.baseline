@@ -1,0 +1,5 @@
+./../../src/tnef -t ./test.tnef
+AUTHORS	|	AUTHORS
+
+./../../src/tnef --list ./test.tnef
+AUTHORS	|	AUTHORS
