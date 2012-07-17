@@ -15,4 +15,7 @@ Gem::Specification.new do |gem|
   gem.name          = 'tnef'
   gem.require_paths = ['lib']
   gem.version       = Tnef::VERSION
+
+  gem.add_development_dependency "rake"
+  gem.add_development_dependency "minitest"
 end
