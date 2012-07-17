@@ -1,0 +1,14 @@
+#!/bin/sh
+
+. $srcdir/../util.sh
+
+bin=$srcdir/../../src/tnef
+tnef_file=$srcdir/test.tnef
+
+rm -f $srcdir/AUTHORS
+
+$bin --debug $tnef_file > $srcdir/debug.output 2>&1
+check_test debug
+check_file $srcdir/AUTHORS
+rm -f $srcdir/AUTHORS
+
