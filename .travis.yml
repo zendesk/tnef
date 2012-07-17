@@ -1,1 +1,3 @@
-install: apt-get install tnef
+before_install:
+ - sudo apt-get update
+ - sudo apt-get install tnef
