@@ -10,7 +10,7 @@ describe Tnef do
 
   describe '::unpack' do
     before do
-      @tnef_file_path = File.expand_path('../ext/tnef/tests/files/datafiles/two-files.tnef', File.dirname(__FILE__))
+      @tnef_file_path = File.expand_path('two-files.tnef', File.dirname(__FILE__))
       assert(File.exist?(@tnef_file_path), "#{@tnef_file_path} does not exist")
     end
 

@@ -1,4 +1,0 @@
-./../../src/tnef ./test.tnef
-./../../src/tnef < ./test.tnef
-./../../src/tnef -f ./test.tnef
-./../../src/tnef -f ./test.tnef
