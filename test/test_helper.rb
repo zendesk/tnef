@@ -1,4 +1,3 @@
-require "bundler"
-Bundler.require
-
+require "bundler/setup"
 require "minitest/autorun"
+require "tnef"
