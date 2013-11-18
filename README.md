@@ -20,6 +20,22 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Updating tnef
+
+```Bash
+git clone git://git.code.sf.net/p/tnef/git fresh
+rsync -va fresh/ ext/tnef
+cd ext/tnef
+aclocal
+autoconf
+autoheader
+automake --add-missing
+make
+cd ../..
+rake install
+rm -rf fresh
+```
+
 ## Contributing
 
 1. Fork it
