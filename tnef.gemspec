@@ -12,4 +12,6 @@ Gem::Specification.new 'tnef', Tnef::VERSION do |gem|
 
   gem.add_development_dependency "rake"
   gem.add_development_dependency "minitest"
+  gem.add_development_dependency "minitest-rg"
+  gem.add_development_dependency "bump"
 end
