@@ -3,7 +3,7 @@ require File.expand_path('../lib/tnef/version', __FILE__)
 Gem::Specification.new 'tnef', Tnef::VERSION do |gem|
   gem.authors       = ['Mick Staugaard']
   gem.email         = ['mick@staugaard.com']
-  gem.description   = 'a ruby wrapper around the tnef library'
+  gem.description   = 'Extract e-mail attachments with MIME type "application/ms-tnef", including tnef binary'
   gem.summary       = 'TNEF is a program for unpacking MIME attachments of type "application/ms-tnef". This is a Microsoft only attachment.'
   gem.homepage      = 'https://github.com/zendesk/tnef'
 
